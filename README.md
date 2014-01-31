@@ -9,12 +9,12 @@ HOW TO BUILD KERNEL 3.4.39 FOR SM-N9005
 
 - download kernel source
 
-git clone https://github.com/omega-roms/omega_kernel_N9005.git
+$ git clone https://github.com/omega-roms/omega_kernel_N9005.git
 
 
 - get Toolchain
 
-git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7
+$ git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7
 
 
 - edit Makefile
