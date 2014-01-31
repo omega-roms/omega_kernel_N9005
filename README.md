@@ -8,7 +8,7 @@ HOW TO BUILD KERNEL 3.4.39 FOR SM-N9005
 	- get Toolchain
 			From Android Source Download site( http://source.android.com/source/downloading.html )
 			Toolchain is included in Android source code.
-      git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7
+			git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7
 
 	- edit Makefile
 			edit "CROSS_COMPILE" to right toolchain path(You downloaded).
@@ -28,3 +28,5 @@ HOW TO BUILD KERNEL 3.4.39 FOR SM-N9005
 	- change current directory to Kernel/arch/arm/boot
 	- type following command
 	$ tar cvf SM-N9005_Kernel.tar zImage
+
+
