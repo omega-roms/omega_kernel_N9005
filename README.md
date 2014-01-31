@@ -1,1 +1,1 @@
-Omega Kernel N9005
+Omega Kernel N9005 Kit Kat
